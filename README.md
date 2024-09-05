@@ -24,7 +24,7 @@ The config is generated after the first start of the plugin.
 To edit permission and database settings please edit config file.
 Located in the folder `counterstrikesharp/configs/plugins/BotQuotaManager`
 
-You can eiter use automatic botquota option or manage bots manually via management menu.
+You can either use automatic botquota option or manage bots manually via management menu.
 
 **Example config(Automatic):**
 ```json
