@@ -15,7 +15,7 @@ public class BQM : BasePlugin, IPluginConfig<BQMConfig>
     public override string ModuleName => "[CS2-BQM]";
     public override string ModuleDescription => "Bot Quota Manager for CS2";
     public override string ModuleAuthor => "verneri";
-    public override string ModuleVersion => "1.0";
+    public override string ModuleVersion => "1.1";
 
     public BQMConfig Config { get; set; } = new();
 

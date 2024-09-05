@@ -2,9 +2,7 @@
 
   "mainmenu.title": "[BotQuotaManager]",
   "mainmenu.BotMenu": "Add/Remove Bots",
-  "mainmenu.QuotaMenu": "Quota Options",
   "mainmenu.CvarMenu": "Cvar Options",
-
 
   "BotMenu.title": "Bot Management",
   "BotMenu.addct": "+1 Bot CT",
@@ -12,7 +10,6 @@
   "BotMenu.removect": "-1 Bot CT",
   "BotMenu.removet": "-1 Bot T",
   "BotMenu.removeall": "Remove All",
-
 
   "CvarMenu.title": "Cvars",
   "CvarMenu.Limitteams.on": "mp_limitteams 1",
@@ -26,5 +23,6 @@
   "Botremoveall": "{blue}[BQM] {default}All bots were kicked",
   "limitteamstrue": "{blue}[BQM] {default}mp_limitteams is set to 1",
   "limitteamsfalse": "{blue}[BQM] {default}mp_limitteams is set to 0"
+
 
 } 
