@@ -88,12 +88,6 @@ public class BQM : BasePlugin, IPluginConfig<BQMConfig>
 			MenuManager.CloseActiveMenu(player);
 			BotAddMenu(player);
         });
-
-        menu.AddMenuOption(Localizer["mainmenu.QuotaMenu"], (client, option) =>
-        {
-            MenuManager.CloseActiveMenu(player);
-            QuotaMenu(player);
-        });
         menu.AddMenuOption(Localizer["mainmenu.CvarMenu"], (client, option) =>
         {
             MenuManager.CloseActiveMenu(player);
@@ -143,29 +137,6 @@ public class BQM : BasePlugin, IPluginConfig<BQMConfig>
         MenuManager.OpenCenterHtmlMenu(this, player, menu);
 		
 	}
-
-    private void QuotaMenu(CCSPlayerController player)
-    {
-        if (!player.IsValid)
-        {
-            return;
-        }
-
-        CenterHtmlMenu menu = new CenterHtmlMenu(Localizer["QuotaMenu.title"], this);
-        menu.AddMenuOption(Localizer["QuotaMenu.Botquotaup"], (client, option) =>
-        {
-            Server.ExecuteCommand("bot_add t");
-            player.PrintToChat($"{Localizer["Botquotaadd"]}");
-        });
-        menu.AddMenuOption(Localizer["QuotaMenu.Botquotadown"], (client, option) =>
-        {
-            Server.ExecuteCommand("bot_add t");
-            player.PrintToChat($"{Localizer["Botquotaremove"]}");
-        });
-        menu.ExitButton = true;
-        MenuManager.OpenCenterHtmlMenu(this, player, menu);
-
-    }
 
     private void CvarMenu(CCSPlayerController player)
     {
