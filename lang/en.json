@@ -1,0 +1,35 @@
+{
+
+  "mainmenu.title": "[BotQuotaManager]",
+  "mainmenu.BotMenu": "Add/Remove Bots",
+  "mainmenu.QuotaMenu": "Quota Options",
+  "mainmenu.CvarMenu": "Cvar Options",
+
+
+  "BotMenu.title": "Bot Management",
+  "BotMenu.addct": "+1 Bot CT",
+  "BotMenu.addt": "+1 Bot T",
+  "BotMenu.removect": "-1 Bot CT",
+  "BotMenu.removet": "-1 Bot T",
+  "BotMenu.removeall": "Remove All",
+
+  "QuotaMenu.title": "Bot Quota",
+  "QuotaMenu.Botquotaup": "+1 Bot_quota",
+  "QuotaMenu.Botquotadown": "-1 Bot_quota",
+
+  "CvarMenu.title": "Cvars",
+  "CvarMenu.Limitteams.on": "mp_limitteams 1",
+  "CvarMenu.Limitteams.off": "mp_limitteams 0",
+
+  "no.access": "{blue}[BQM] {red}You don't have permissions to use this command",
+  "BotAddCt": "{blue}[BQM] {default}Bot added to CT",
+  "BotAddt": "{blue}[BQM] {default}Bot added to T",
+  "Botremovect": "{blue}[BQM] {default}Bot kicked from CT",
+  "Botremovet": "{blue}[BQM] {default}Bot kicked from T",
+  "Botremoveall": "{blue}[BQM] {default}All bots were kicked",
+  "Botquotaadd": "{blue}[BQM] {default}bot_quota +1",
+  "Botquotaremove": "{blue}[BQM] {default}bot_quota -1",
+  "limitteamstrue": "{blue}[BQM] {default}mp_limitteams is set to 1",
+  "limitteamsfalse": "{blue}[BQM] {default}mp_limitteams is set to 0"
+
+} 
