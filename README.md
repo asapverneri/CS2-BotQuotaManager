@@ -5,6 +5,7 @@ Tested on Windows, but should work on Linux aswell.
 
 
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/asapverneri/CS2-BotQuotaManager?style=for-the-badge&label=Version)
+![Last Commit](https://img.shields.io/github/last-commit/asapverneri/CS2-BotQuotaManager?style=for-the-badge)
 
 > [!CAUTION]  
 > This is WIP. Tested alone & for sure not perfect
