@@ -31,8 +31,8 @@ You can either use automatic botquota option or manage bots manually via managem
 ```json
 {
   "EnableAutoQuota": true, // Automatic bot quota depending on "MaxPlayersWithBots"
-  "MaxPlayersWithBots": 1, // if playercount goes above this number, bots will be kicked
-  "BotQuota": "6", // How many bots
+  "MaxPlayersWithBots": 1, // if playercount goes above this number, bots will be kicked (When EnableAutoQuota = true)
+  "BotQuota": "6", // How many bots (When EnableAutoQuota = true)
   "BalanceTeams": true, // Should teams be balanced
   "LimitTeams": true,
   "MenuFlag": "@css/generic", // Flag for management menu
