@@ -15,7 +15,7 @@ public class BQM : BasePlugin, IPluginConfig<BQMConfig>
     public override string ModuleName => "[CS2-BQM]";
     public override string ModuleDescription => "Bot Quota Manager for CS2";
     public override string ModuleAuthor => "verneri";
-    public override string ModuleVersion => "1.1";
+    public override string ModuleVersion => "1.2";
 
     public BQMConfig Config { get; set; } = new();
 
@@ -54,7 +54,7 @@ public class BQM : BasePlugin, IPluginConfig<BQMConfig>
     {
         
 
-        if (GetPlayersCount() == Config.MaxPlayersWithBots)
+        if (GetPlayersCount() <= Config.MaxPlayersWithBots)
         {
             Server.ExecuteCommand($"bot_quota {Config.BotQuota}");
             Logger.LogInformation($"Server has {GetPlayersCount()} players. Executing 'bot_quota {Config.BotQuota}'");
